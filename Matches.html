@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="dist/main.css"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title> Matches </title>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"> Home </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Shop.html">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="News.html"> News </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="Matches.html" id="navbarDropdownMenuLink" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        Games
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="Matches.html">Counterstrike</a></li>
+                        <li><a class="dropdown-item" href="Matches.html">Rocket League</a></li>
+                        <li><a class="dropdown-item" href="Matches.html">Valorant</a></li>
+                        <li><a class="dropdown-item" href="Matches.html"> Overwatch </a></li>
+                        <li><a class="dropdown-item" href="Matches.html"> Warzone </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Matches.html">Matches </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<h2 class="players-page"> Matches & Results </h2>
+<div class="col-md-12">
+    <div id="btnContainer">
+        <button class="btn list-view_btn"><i class="fa fa-bars"></i> List</button>
+        <button class="btn grid-view_btn"><i class="fa fa-th-large"></i> Grid</button>
+<!--        <button class="btn masonry-view_btn"><i class="fa fa-th-large"></i> Masonary</button>-->
+    </div>
+</div>
+
+<!--<div class="list-group">-->
+<!--    <div class="list-view">-->
+<!--        <a href="#" class="list-group-item">First item</a>-->
+<!--        <a href="#" class="list-group-item">Second item</a>-->
+<!--        <a href="#" class="list-group-item">Third item</a>-->
+<!--    </div>-->
+<!--</div>-->
+
+
+<div class="masonry">
+    <div class="row">
+        <div class="view-toggle grid-view col-md-3">
+            <h5>  </h5>
+            <!--                    <img class="masimg" src="assets/images/Counterstrike.jpeg">-->
+        </div>
+        <div class="view-toggle grid-view col-md-3">
+            <h5> </h5>
+        </div>
+        <div class="view-toggle grid-view col-md-3">
+            <h5>  </h5>
+        </div>
+        <div class="view-toggle grid-view col-md-3">
+            <h5> </h5>
+        </div>
+        <div class="view-toggle grid-view col-md-3">
+            <h5>  </h5>
+        </div>
+        <div class="view-toggle grid-view col-md-3">
+            <h5>  </h5>
+        </div>
+        <div class="view-toggle grid-view col-md-3">
+            <h5>  </h5>
+        </div>
+        <div class="view-toggle grid-view col-md-3">
+            <h5>  </h5>
+        </div>
+        <div class="view-toggle grid-view col-md-3">
+            <h5> </h5>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12">
+    <div id="btnContainer2">
+        <button class="played-view_btn"><i class="fa fa-bars"></i> Upcoming Games</button>
+        <button class="final-view_btn"><i class="fa fa-th-large"></i> Results </button>
+        <button class="showall-view_btn"><i class="fa fa-th-large"></i> Show All </button>
+    </div>
+</div>
+
+<div class="masonry">
+    <div class="row">
+        <div class="view-toggle played-view col-md-3">
+            <h5>  </h5>
+        </div>
+        <div class="view-toggle played-view col-md-3">
+            <h5> </h5>
+        </div>
+        <div class="view-toggle played-view col-md-3">
+            <h5>  </h5>
+        </div>
+        <div class="view-toggle played-view col-md-3">
+            <h5> </h5>
+        </div>
+        <div class="view-toggle played-view col-md-3">
+            <h5>  </h5>
+        </div>
+        <div class="view-toggle played-view col-md-3">
+            <h5>  </h5>
+        </div>
+        <div class="view-toggle played-view col-md-3">
+            <h5>  </h5>
+        </div>
+        <div class="view-toggle next-view col-md-3">
+            <h5>  </h5>
+        </div>
+        <div class="view-toggle next-view col-md-3">
+            <h5> </h5>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="./dist/app.js"></script>
+<script src="assets/js/modal.js"></script>
