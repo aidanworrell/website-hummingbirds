@@ -118,3 +118,57 @@ $('.owl-carousel').owlCarousel({
 //         $('#sidebar').toggleClass('active');
 //     });
 // });
+$('.shop-page-high').click(function () {
+    // choosing the wrapper and individual divs to be sorted
+    $(' .shop-wrapper .store-item').sort(function (a, b) {
+        // compares the two data-price values and sorts with a before b = lowest to highest.
+        return $(b).data('price') - $(a).data('price');
+        // reapplying the sorted list to the wrapper
+    }).appendTo('.shop-wrapper');
+});
+
+$('.shop-page-low').click(function () {
+    // choosing the wrapper and individual divs to be sorted
+    $('.shop-wrapper .store-item').sort(function (b, a) {
+        // compares the two data-price values and sorts with a before b = lowest to highest.
+        return $(b).data('price') - $(a).data('price');
+        // reapplying the sorted list to the wrapper
+    }).appendTo('.shop-wrapper');
+});
+
+$(document).ready(function () {
+    // on release of key on keyboard
+    $("#search-bar").on("keyup", function() {
+        // turns searched value into lowercase
+        let value = $(this).val().toLowerCase();
+        // filters the divs within the wrapper
+        $(".shop-wrapper .store-item").filter(function() {
+            // returns filtered options that match the searched value (returns a value greater than -1)
+            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+    });
+});
+
+$('.shop-page-az').click(function () {
+    var mylist = $('.shop-wrapper');
+    var listitems = mylist.children('.store-item').get();
+    listitems.sort(function (a, b) {
+        return $(a).text().toUpperCase().localeCompare($(b).text().toUpperCase());
+    })
+    $.each(listitems, function (idx, itm) {
+        mylist.append(itm);
+    });
+});
+
+$('.shop-page-za').click(function () {
+    var mylist = $('.shop-wrapper');
+    var listitems = mylist.children('.store-item').get();
+    listitems.sort(function (b, a) {
+        return $(a).text().toUpperCase().localeCompare($(b).text().toUpperCase());
+    })
+    $.each(listitems, function (idx, itm) {
+        mylist.append(itm);
+    });
+});
+
+

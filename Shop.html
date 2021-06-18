@@ -16,7 +16,8 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
         <a class="navbar-brand" href="index.html"> Home </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -31,19 +32,20 @@
                     <a class="nav-link" href="Contact.html">Contact </a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="Matches.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="Matches.html" id="navbarDropdownMenuLink" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
                         Games
                     </a>
-<!--                    navbar dropdowns-->
+                    <!--                    navbar dropdowns-->
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <li><a class="dropdown-item" href="Matches.html">Counterstrike</a></li>
                         <li><a class="dropdown-item" href="Matches.html">Rocket League</a></li>
                         <li><a class="dropdown-item" href="Matches.html">Valorant</a></li>
                         <li><a class="dropdown-item" href="Matches.html"> Overwatch </a></li>
-                        <li><a class="dropdown-item" href="Matches.html">  Warzone </a></li>
+                        <li><a class="dropdown-item" href="Matches.html"> Warzone </a></li>
                     </ul>
                 </li>
-<!--                navbar dropdowns end-->
+                <!--                navbar dropdowns end-->
                 <li class="nav-item">
                     <a class="nav-link" href="Matches.html">Matches </a>
                 </li>
@@ -58,8 +60,12 @@
 
 <!--buttons for Price Range and Alphabetical order-->
 <h2 class="humming"> Humming Birds </h2>
-<button type="button" class="btn btn-primary mx-auto"> Price Range</button>
-<button type="button" class="btn btn-primary mx-auto"> Alphabetical</button>
+<button type="button" class="btn btn-primary shop-page-high mx-auto"> high price</button>
+<button type="button" class="btn btn-primary  shop-page-low mx-auto"> Low price</button>
+<button type="button" class="btn btn-primary shop-page-az mx-auto"> a-z</button>
+<button type="button" class="btn btn-primary shop-page-za mx-auto"> z-a</button>
+
+
 <!-- The sidebar -->
 <div class="d-flex" id="wrapper">
     <div id="sidebar-wrapper">
@@ -67,9 +73,9 @@
             <a class="active" href="">Shop</a>
 
 
-<!--            <div class="store-item"data-price="50">-->
-<!--                -->
-<!--            </div>-->
+            <!--            <div class="store-item"data-price="50">-->
+            <!--                -->
+            <!--            </div>-->
             <!--            Dropdowns for Sidenav-->
             <select>
                 <option>
@@ -167,7 +173,7 @@
             </select>
             <div class="search">
                 <form action="#">
-                    <input type="text"
+                    <input type="search" id="search-bar"
                            placeholder=" Search Store"
                            name="search">
                     <button>
@@ -187,75 +193,142 @@
 
     <div id="page-content-wrapper" class="m-2">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-4 col-md-8 mb-12 mb-md-0">
-                    <h5> Team Jersey </h5>
-                    <img src="assets/images/jersey2.jpeg">
+            <!--            <div class="shop-wrapper">-->
+            <!--                <div class="row">-->
+            <!--                    <div class="col-lg-4 shop-item col-md-8 mb-12 mb-md-0 "data-price="60">-->
+            <!--                        <h5> Team Jersey </h5>-->
+            <!--                        <img src="assets/images/jersey2.jpeg">-->
+            <!--                    </div>-->
+            <!--                    <div class="col-lg-4 shop-item col-md-8 mb-12 mb-md-0" data-price="35">-->
+            <!--                        <h5> Backpacks </h5>-->
+            <!--                        <img src="assets/images/Backpack.jpeg">-->
+            <!--                    </div>-->
+            <!--                    <div class="col-lg-4 shop-item col-md-8 mb-12 mb-md-0"data-price="10">-->
+            <!--                        <h5> Mousemats </h5>-->
+            <!--                        <img src="assets/images/mousepad04.jpeg">-->
+            <!--                    </div>-->
+            <!--                </div>-->
+            <!--            </div>-->
+
+            <!--            <div class="row">-->
+            <!--                <div class="col-lg-4 shop-item col-md-8 mb-12 mb-md-0" data-price="15">-->
+            <!--                    <h5 class="store"> Mugs</h5>-->
+            <!--                    <img src="assets/images/hoodies.jpeg">-->
+            <!--                </div>-->
+            <!--                <div class="col-lg-4 shop-item col-md-8 mb-12 mb-md-0" data-price="5">-->
+            <!--                    <h5 class="store"> Drinkware </h5>-->
+            <!--                    <img src="assets/images/beanie.jpeg">-->
+            <!--                </div>-->
+            <!--                <div class="col-lg-4 shop-item col-md-8 mb-12 mb-md-0" data-price="150">-->
+            <!--                    <h5 class="store"> Gaming Chairs</h5>-->
+            <!--                    <img src="assets/images/chair.jpeg">-->
+            <!--                </div>-->
+            <!--            </div>-->
+
+
+            <!--            <div class="row">-->
+            <!--                <div class="col-lg-4 shop-item col-md-8 mb-12 mb-md-0" data-price="45">-->
+
+            <!--                    <img src="assets/images/mask.jpeg">-->
+            <!--                    <h5 class="store2"> Hoodies </h5>-->
+
+            <!--                </div>-->
+            <!--                <div class="col-lg-4 shop-item col-md-8 mb-12 mb-md-0" data-price="10">-->
+
+            <!--                    <img src="assets/images/Flag1_New.jpeg">-->
+            <!--                    <h5 class="store2"> Beanies </h5>-->
+            <!--                </div>-->
+            <!--                <div class="col-lg-4 shop-item col-md-8 mb-12 mb-md-0" data-price="1.99">-->
+
+            <!--                    <img src="assets/images/Sale.png">-->
+            <!--                    <h5 class="store2"> Sale </h5>-->
+
+            <!--                </div>-->
+            <!--            </div>-->
+            <!--        </div>-->
+
+
+            <div class="shop-wrapper justify-content-center ">
+                <!--TODO: need to add actual content for the store -->
+                <div class="store-item view-toggle-shop grid-view-shop " data-price="30">
+                    <div class="jumper-item">
+                        <p class="card-text">jumper</p>
+                        <p class="card-text">£30.00</p>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-md-8 mb-12 mb-md-0">
-                    <h5> Backpacks </h5>
-                    <img src="assets/images/Backpack.jpeg">
+
+                <div class="store-item view-toggle-shop grid-view-shop " data-price="60">
+                    <div class="coat-item">
+                        <p class="card-text">Coat</p>
+                        <p class="card-text">£60.00</p>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-md-8 mb-12 mb-md-0">
-                    <h5> Mousemats </h5>
-                    <img src="assets/images/mousepad04.jpeg">
+                <div class="store-item view-toggle-shop grid-view-shop " data-price="5">
+                    <div class="pen-item">
+                        <p class="card-text">pen</p>
+                        <p class="card-text">£5.00</p>
+                    </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-4 col-md-8 mb-12 mb-md-0">
-                <h5 class="store"> Mugs</h5>
-                <img src="assets/images/hoodies.jpeg">
-            </div>
-            <div class="col-lg-4 col-md-8 mb-12 mb-md-0">
-                <h5 class="store"> Drinkware </h5>
-                <img src="assets/images/beanie.jpeg">
-            </div>
-            <div class="col-lg-4 col-md-8 mb-12 mb-md-0">
-                <h5 class="store"> Gaming Chairs</h5>
-                <img src="assets/images/chair.jpeg">
-            </div>
-        </div>
-
-
-        <div class="row">
-            <div class="col-lg-4 col-md-8 mb-12 mb-md-0">
-                <h5> Hoodies </h5>
-                <img src="assets/images/mask.jpeg">
-
-            </div>
-            <div class="col-lg-4 col-md-8 mb-12 mb-md-0">
-                <h5>Beanies </h5>
-                <img src="assets/images/Flag1_New.jpeg">
-            </div>
-            <div class="col-lg-4 col-md-8 mb-12 mb-md-0">
-                <h5> Sale </h5>
-                <img src="assets/images/Sale.png">
-
+                <div class="store-item view-toggle-shop grid-view-shop " data-price="45">
+                    <div class="jersey-item">
+                        <p class="card-text">jersey</p>
+                        <p class="card-text">£45.00</p>
+                    </div>
+                </div>
+                <div class="store-item view-toggle-shop grid-view-shop " data-price="15">
+                    <div class="scarf-item">
+                        <p class="card-text">scarf</p>
+                        <p class="card-text">£15.00</p>
+                    </div>
+                </div>
+                <div class="store-item view-toggle-shop grid-view-shop " data-price="5">
+                    <div class="phoneCase-item">
+                        <p class="card-text">Phone Case</p>
+                        <p class="card-text">£5.00</p>
+                    </div>
+                </div>
+                <div class="store-item view-toggle-shop grid-view-shop " data-price="2">
+                    <div class="keyring-item">
+                        <p class="card-text">Keyring</p>
+                        <p class="card-text">£2.00</p>
+                    </div>
+                </div>
+                <div class="store-item view-toggle-shop grid-view-shop " data-price="30">
+                    <div class="jumper-item">
+                        <p class="card-text">jumper</p>
+                        <p class="card-text">£30.00</p>
+                    </div>
+                </div>
+                <div class="store-item view-toggle-shop grid-view-shop " data-price="20">
+                    <div class="jumper-stores">
+                        <p class="card-text">mousemat</p>
+                        <p class="card-text">£20</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+
+    <!--Pagination -->
+    <div class="pagination_section">
+        <a href="#"><< Previous</a>
+        <a href="#" title=""> 1 </a>
+        <a href="#" title=""> 2 </a>
+        <a href="#" title=""> 3 </a>
+        <a href="#" title="" class="active"> 4 </a>
+        <a href="#" title=""> 5 </a>
+        <a href="#">Next >></a>
+    </div>
+    <!--Page Content ends here-->
+
+    <!--<div-->
+    <!--        class="grid-item-shop">-->
+    <!--</div>-->
+
+
+
 </div>
-
-
-<!--Pagination -->
-<div class="pagination_section">
-    <a href="#"><< Previous</a>
-    <a href="#" title=""> 1 </a>
-    <a href="#" title=""> 2 </a>
-    <a href="#" title=""> 3 </a>
-    <a href="#" title="" class="active"> 4 </a>
-    <a href="#" title=""> 5 </a>
-    <a href="#">Next >></a>
-</div>
-<!--Page Content ends here-->
-
-<!--<div-->
-<!--        class="grid-item-shop">-->
-<!--</div>-->
-
-
 <script src="./dist/app.js"></script>
 </body>
 
