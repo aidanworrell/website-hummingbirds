@@ -27,6 +27,13 @@
   flex: auto;
   height: 150px;
   background-color: $primary-color;
+  &:nth-child(even) {
+    width: 100%;
+  }
+
+  &:nth-child(odd) {
+    width: 100%;
+  }
 }
 .grid-view{
   text-align: center;

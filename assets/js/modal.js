@@ -87,22 +87,37 @@ $(document).ready(function () {
     //     $(".view-toggle").removeClass("grid-view");
     // });
 
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-})
+// $('.owl-carousel').owlCarousel({
+//     loop:true,
+//     margin:10,
+//     nav:true,
+//     responsive:{
+//         0:{
+//             items:1
+//         },
+//         600:{
+//             items:3
+//         },
+//         1000:{
+//             items:5
+//         }
+//     }
+// })
+    $('.owl-carousel').owlCarousel({
+        items: 5,
+        loop: true,
+        margin: 10,
+        autoplay: true,
+        slideTransition: 'linear',
+        autoplayTimeout: 2000,
+        smartSpeed: 2000,
+        autoplayHoverPause: true,
+        stagePadding: 30,
+        center: true,
+        dots: false,
+    });
+
+
 
 })
 
