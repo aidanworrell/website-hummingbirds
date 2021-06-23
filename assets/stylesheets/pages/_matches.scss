@@ -38,6 +38,7 @@ input[type=submit]:hover {
   opacity: 1.0;
   filter: alpha(opacity=100);
 }
+//on hover over the image it will fade and the outline of the image will go red
   .player-hover:hover {
     opacity: 0.5;
     filter: alpha(opacity=40);
@@ -46,7 +47,9 @@ input[type=submit]:hover {
       text-align: center;
     }
   }
-
+.navbar-brand{
+  font-size: 45px;
+}
 //.card-size{
 //  height: 20rem;
 //}

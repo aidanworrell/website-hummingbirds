@@ -50,18 +50,19 @@
 .search {
   float: right;
   margin: 7px;
+  border: 2px , 3px , $third-color;
 }
 
-.search button {
-  background-color: #0074D9;
-  color: #f2f2f2;
-  float: right;
-  padding: 5px 10px;
-  margin-right: 16px;
-  font-size: 12px;
-  border: none;
-  cursor: pointer;
-}
+//.search button {
+//  background-color: #0074D9;
+//  color: #f2f2f2;
+//  float: right;
+//  padding: 5px 10px;
+//  margin-right: 16px;
+//  font-size: 12px;
+//  border: none;
+//  cursor: pointer;
+//}
 
 #wrapper {
   overflow-x: hidden;
@@ -116,7 +117,7 @@ img{
   width: 32%;
   text-align: center;
   padding: 10px;
-  height: 250px;
+  height: 600px;
   min-width: 150px;
   margin: 0 8px 8px 0; /* Some gutter */
   background-color: $third-color;
@@ -124,7 +125,9 @@ img{
   color: black;
   overflow: auto;
 }
-
+.navbar-brand{
+  font-size: 45px;
+}
 //.store-item{
 //  max-width: 10rem;
 //}
