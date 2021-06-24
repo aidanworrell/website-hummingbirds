@@ -47,6 +47,7 @@
     float: none;
   }
 }
+//search box in shop
 .search {
   float: right;
   margin: 7px;
@@ -63,7 +64,7 @@
 //  border: none;
 //  cursor: pointer;
 //}
-
+//main css for the content on the page
 #wrapper {
   overflow-x: hidden;
 }
@@ -97,6 +98,7 @@ img{
   height: 100%;
   //padding-top: 20px;
   padding-bottom: 20px;
+  object-fit: contain;
 }
 
 .store{
@@ -106,13 +108,13 @@ img{
  padding-bottom: 20px;
 }
 
-.shop-wrapper{
+.shop-wrapper {
   display: flex;
   flex-flow: row wrap;
   grid-auto-columns: auto;
   width: 100%;
 }
-///25% width as i have extra margins and things
+
 .grid-view-shop {
   width: 32%;
   text-align: center;

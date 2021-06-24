@@ -165,16 +165,21 @@ $(document).ready(function () {
 });
 
 $('.shop-page-az').click(function () {
+    // declaring my list
     var mylist = $('.shop-wrapper');
+    // i am getting the 'children' that have the class store item within 'mylist'
     var listitems = mylist.children('.store-item').get();
+    // all of the 'children' that have selected. this is sorting between the 2
     listitems.sort(function (a, b) {
+        // returning the value over the text in uppercase comparing a-b
         return $(a).text().toUpperCase().localeCompare($(b).text().toUpperCase());
     })
+    // for each one of the items that have been sorted into an order
     $.each(listitems, function (idx, itm) {
         mylist.append(itm);
     });
 });
-
+//this is the same as the a-z just inverse
 $('.shop-page-za').click(function () {
     var mylist = $('.shop-wrapper');
     var listitems = mylist.children('.store-item').get();
