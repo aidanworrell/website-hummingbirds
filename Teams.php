@@ -13,57 +13,14 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Home </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="Shop.html">Shop</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="News.html"> News </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Contact.html">Contact </a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="Teams.html" id="navbarDropdownMenuLink" role="button"
-                       data-bs-toggle="dropdown" aria-expanded="false">
-                        Games
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li> <a class="dropdown-item" href="Matches.html"> Matches Page </a> </li>
-                        <li><a class="dropdown-item" href="Matches.html"> <img src="assets/images/counterstrike.jpg"
-                                                                               width="192" height="118"></a></li>
-                        <li><a class="dropdown-item" href="Matches.html"> <img src="assets/images/rocketleague.jpg"
-                                                                               width="192" height="118"></a></li>
-                        <li><a class="dropdown-item" href="Matches.html"> <img src="assets/images/valorant.png"
-                                                                               width="192" height="118"></a></li>
-                        <li><a class="dropdown-item" href="Matches.html"><img src="assets/images/overwatch.png"
-                                                                              width="192" height="118"></a></li>
-                        <li><a class="dropdown-item" href="Matches.html"><img src="assets/images/warzone.jpeg"
-                                                                              width="192" height="118"></a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Teams.html"> Teams </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<?php include("partials/nav.php") ?>
 <h2 class="humming"> Humming Birds </h2>
 
 <div class="container">
     <div class="row">
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
             <div class="card">
-                <a href="Players.html">
+                <a href="Players.php">
                     <img src="assets/images/Counterstrike.jpeg" class="card-img-top" alt="counterstrike"></a>
                 <div class="card-body">
                     <h5 class="card-title"><u>Counterstrike</u></h5>
@@ -75,7 +32,7 @@
 
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
             <div class="card">
-                <a href="Players.html">
+                <a href="Players.php">
                     <img src="assets/images/rocketleague.jpg" class="card-img-top" alt="rocketleague"></a>
                 <div class="card-body">
                     <h5 class="card-title"><u> Rocket League </u></h5>
@@ -91,7 +48,7 @@
     <div class="row">
         <div class="col-lg-4 col-md-8 mb-12 mb-md-0">
             <div class="card">
-                <a href="Players.html">
+                <a href="Players.php">
                     <img src="assets/images/overwatch.png" class="card-img-top" alt="overwatch"></a>
                 <div class="card-body">
                     <h5 class="card-title"><u> Overwatch</u></h5>
@@ -102,7 +59,7 @@
         </div>
         <div class="col-lg-4 col-md-8 mb-12 mb-md-0">
             <div class="card">
-                <a href="Players.html">
+                <a href="Players.php">
                     <img src="assets/images/valorant.png" class="card-img-top" alt="valorant"></a>
                 <div class="card-body">
                     <h5 class="card-title"><u>Valorant</u></h5>
@@ -113,7 +70,7 @@
         </div>
         <div class="col-lg-4 col-md-8 mb-12 mb-md-0">
             <div class="card">
-                <a href="Players.html">
+                <a href="Players.php">
                     <img src="assets/images/warzone.jpeg" class="card-img-top" alt="warzone"></a>
                 <div class="card-body">
                     <h5 class="card-title"><u> Warzone </u></h5>

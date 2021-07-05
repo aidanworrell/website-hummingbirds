@@ -12,50 +12,7 @@
 </head>
 <body>
 <!--navbar-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Home </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="Shop.html">Shop</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="News.html"> News </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Contact.html">Contact </a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="Teams.html" id="navbarDropdownMenuLink" role="button"
-                       data-bs-toggle="dropdown" aria-expanded="false">
-                        Games
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li> <a class="dropdown-item" href="Matches.html"> Matches Page </a> </li>
-                        <li><a class="dropdown-item" href="Matches.html"> <img src="assets/images/counterstrike.jpg"
-                                                                               width="192" height="118"></a></li>
-                        <li><a class="dropdown-item" href="Matches.html"> <img src="assets/images/rocketleague.jpg"
-                                                                               width="192" height="118"></a></li>
-                        <li><a class="dropdown-item" href="Matches.html"> <img src="assets/images/valorant.png"
-                                                                               width="192" height="118"></a></li>
-                        <li><a class="dropdown-item" href="Matches.html"><img src="assets/images/overwatch.png"
-                                                                              width="192" height="118"></a></li>
-                        <li><a class="dropdown-item" href="Matches.html"><img src="assets/images/warzone.jpeg"
-                                                                              width="192" height="118"></a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Teams.html"> Teams </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<?php include("partials/nav.php") ?>
 <!--navbar ends-->
 <h1 class="humming"> Humming Birds</h1>
 
@@ -109,7 +66,7 @@
                         <td></td>
                         <td></td>
                         <td>1<p></p>
-                            <a href="Matches.html">
+                            <a href="Matches.php">
                                 <div class="myDIV"> Game Day</div>
                                 <div class="hide"> A vs B</div>
                             </a>
@@ -125,7 +82,7 @@
                         <td>9</td>
                         <td>10</td>
                         <td>11
-                            <a href="Matches.html">
+                            <a href="Matches.php">
                                 <div class="myDIV"> Game Day</div>
                                 <div class="hide">A vs C </div>
 
@@ -136,7 +93,7 @@
                     </tr>
                     <tr>
                         <td>13
-                            <a href="Matches.html">
+                            <a href="Matches.php">
                                 <div class="myDIV"> Meet & Greet</div>
                                 <div class="hide"> Time 10:00 - 12:00</div>
                             </a>
@@ -145,7 +102,7 @@
                         <td>15</td>
                         <td>16</td>
                         <td>17
-                            <a href="Matches.html">
+                            <a href="Matches.php">
                                 <div class="myDIV"> Charity Stream</div>
                                 <div class="hide">yeeeet</div>
                             </a>

@@ -12,50 +12,7 @@
     <title> News </title>
 <body>
 <!--navbar-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Home </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="Shop.html">Shop</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="News.html"> News </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Contact.html">Contact </a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="Teams.html" id="navbarDropdownMenuLink" role="button"
-                       data-bs-toggle="dropdown" aria-expanded="false">
-                        Games
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li> <a class="dropdown-item" href="Matches.html"> Matches Page </a> </li>
-                        <li><a class="dropdown-item" href="Matches.html"> <img src="assets/images/counterstrike.jpg"
-                                                                               width="192" height="118"></a></li>
-                        <li><a class="dropdown-item" href="Matches.html"> <img src="assets/images/rocketleague.jpg"
-                                                                               width="192" height="118"></a></li>
-                        <li><a class="dropdown-item" href="Matches.html"> <img src="assets/images/valorant.png"
-                                                                               width="192" height="118"></a></li>
-                        <li><a class="dropdown-item" href="Matches.html"><img src="assets/images/overwatch.png"
-                                                                              width="192" height="118"></a></li>
-                        <li><a class="dropdown-item" href="Matches.html"><img src="assets/images/warzone.jpeg"
-                                                                              width="192" height="118"></a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Teams.html"> Teams </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<?php include("partials/nav.php") ?>
 <!--navbar ends-->
 <h2 class="humming"> Humming Bird</h2>
 
@@ -97,7 +54,7 @@
     <div class="masonry">
         <div class="row">
             <div class="view-toggle grid-view col-md-3">
-                <a href="Newspageitem.html"><h5 class="news"> News </h5></a>
+                <a href="Newspageitem.php"><h5 class="news"> News </h5></a>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et
                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -108,7 +65,7 @@
                     deserunt mollit anim id est laborum.</p>
             </div>
             <div class="view-toggle grid-view col-md-3">
-                <a href="Newspageitem.html"><h5 class="news"> News </h5></a>
+                <a href="Newspageitem.php"><h5 class="news"> News </h5></a>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et
                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -119,7 +76,7 @@
                     deserunt mollit anim id est laborum.</p>
             </div>
             <div class="view-toggle grid-view col-md-3">
-                <a href="Newspageitem.html"><h5 class="news"> News </h5></a>
+                <a href="Newspageitem.php"><h5 class="news"> News </h5></a>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et
                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -130,7 +87,7 @@
                     deserunt mollit anim id est laborum.</p>
             </div>
             <div class="view-toggle grid-view col-md-3">
-                <a href="Newspageitem.html"><h5 class="news"> News </h5></a>
+                <a href="Newspageitem.php"><h5 class="news"> News </h5></a>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et
                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -141,7 +98,7 @@
                     deserunt mollit anim id est laborum.</p>
             </div>
             <div class="view-toggle grid-view col-md-3">
-                <a href="Newspageitem.html"><h5 class="news"> News </h5></a>
+                <a href="Newspageitem.php"><h5 class="news"> News </h5></a>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et
                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
